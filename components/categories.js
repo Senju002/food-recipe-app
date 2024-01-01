@@ -31,16 +31,16 @@ export default function Categories({
               className="flex items-center space-y-1"
             >
               <View className={"rounded-full p-[6px] " + activeButtonClass}>
-                {/* <Image
+                <Image
                   source={{ uri: cat.strCategoryThumb }}
                   style={{ width: hp(6), height: hp(6) }}
                   className="rounded-full"
-                /> */}
-                <CachedImage
+                />
+                {/* <CachedImage
                   uri={cat.strCategoryThumb}
                   style={{ width: hp(6), height: hp(6) }}
                   className="rounded-full"
-                />
+                /> */}
               </View>
               <Text className="text-neutral-600" style={{ fontSize: hp(1.6) }}>
                 {cat.strCategory}
